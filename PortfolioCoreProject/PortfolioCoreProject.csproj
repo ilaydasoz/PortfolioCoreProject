@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Views\Default\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Feature\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\FeatureList\" />
+    <None Remove="ViewComponents\About\" />
+    <None Remove="Views\Shared\Components\AboutList\" />
+    <None Remove="ViewComponents\Service\" />
+    <None Remove="Views\Shared\Components\ServiceList\" />
+    <None Remove="ViewComponents\Skill\" />
+    <None Remove="Views\Shared\Components\SkillList\" />
+    <None Remove="ViewComponents\Portfolio\" />
+    <None Remove="Views\Shared\Components\PortfolioList\" />
+    <None Remove="Views\Shared\Components\ExperienceList\" />
+    <None Remove="ViewComponents\Experience\" />
+    <None Remove="ViewComponents\Testimonial\" />
+    <None Remove="Views\Shared\Components\TestimonialList\" />
+    <None Remove="ViewComponents\Contact\" />
+    <None Remove="Views\Shared\Components\SendMessage\" />
+    <None Remove="ViewComponents\ContactList\" />
+    <None Remove="Views\Shared\Components\ContactDetails\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Default\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Feature\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\FeatureList\" />
+    <Folder Include="ViewComponents\About\" />
+    <Folder Include="Views\Shared\Components\AboutList\" />
+    <Folder Include="ViewComponents\Service\" />
+    <Folder Include="Views\Shared\Components\ServiceList\" />
+    <Folder Include="ViewComponents\Skill\" />
+    <Folder Include="Views\Shared\Components\SkillList\" />
+    <Folder Include="ViewComponents\Portfolio\" />
+    <Folder Include="Views\Shared\Components\PortfolioList\" />
+    <Folder Include="Views\Shared\Components\ExperienceList\" />
+    <Folder Include="ViewComponents\Experience\" />
+    <Folder Include="ViewComponents\Testimonial\" />
+    <Folder Include="Views\Shared\Components\TestimonialList\" />
+    <Folder Include="ViewComponents\Contact\" />
+    <Folder Include="Views\Shared\Components\SendMessage\" />
+    <Folder Include="Views\Shared\Components\ContactDetails\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9C6C0E51-8978-4324-A7AA-D8515A2AA3FD}|Default">
+  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Views/Shared/Components/ContactDetails/Default.cshtml">
+    <Files>
+      <File FileName="PortfolioCoreProject/Views/Default/Index.cshtml" Line="44" Column="23" />
+      <File FileName="PortfolioCoreProject/ViewComponents/Contact/SendMessage.cs" />
+      <File FileName="PortfolioCoreProject/Views/Shared/Components/SendMessage/Default.cshtml" />
+      <File FileName="PortfolioCoreProject/Views/Shared/Components/ContactDetails/Default.cshtml" Line="36" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PortfolioCoreProject" expanded="True">
+            <Node name="PortfolioCoreProject" expanded="True">
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
