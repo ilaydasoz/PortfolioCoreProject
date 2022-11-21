@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{9C6C0E51-8978-4324-A7AA-D8515A2AA3FD}|Default">
   <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Views/Shared/Components/ContactDetails/Default.cshtml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="PortfolioCoreProject/Views/Default/Index.cshtml" Line="44" Column="23" />
       <File FileName="PortfolioCoreProject/ViewComponents/Contact/SendMessage.cs" />
@@ -10,9 +10,10 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PortfolioCoreProject" expanded="True">
+          <Node name="PortfolioCoreProject" expanded="True" selected="True">
             <Node name="PortfolioCoreProject" expanded="True">
               <Node name="Views" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
