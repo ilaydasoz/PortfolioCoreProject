@@ -4,7 +4,6 @@
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/bin/Debug/net5.0/EntityLayer.dll
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/bin/Debug/net5.0/ref/EntityLayer.dll
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/bin/Debug/net5.0/EntityLayer.pdb
-/Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.csproj.AssemblyReference.cache
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.AssemblyInfoInputs.cache
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/ref/EntityLayer.dll
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.pdb
 /Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.genruntimeconfig.cache
+/Users/ilaydasozyilmaz/Projects/PortfolioCoreProject/EntityLayer/obj/Debug/net5.0/EntityLayer.csproj.AssemblyReference.cache

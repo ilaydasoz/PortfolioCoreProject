@@ -1,7 +1,9 @@
 ﻿using System;
+using EntityLayer.Concrete;
+
 namespace BusinessLayer.Abstract
 {
-    public interface IAnnouncementService
+    public interface IAnnouncementService : IGenericService<Announcement>
     {
     }
 }

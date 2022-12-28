@@ -1,10 +1,10 @@
 ﻿using System;
+using EntityLayer.Concrete;
+
 namespace DataAccessLayer.Abstract
 {
-    public class IWriterMessageDal
+    public interface IWriterMessageDal : IGenericDal<WriterMessage>
     {
-        public IWriterMessageDal()
-        {
-        }
+        
     }
 }

@@ -1,19 +1,32 @@
-﻿using System;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace PortfolioCoreProject.Controllers
 {
-    public class MessageController : Controller
+    public class ContactController : Controller
     {
-        // GET: /<controller>/
+        MessageManager messageManager = new MessageManager(new EfMessageDal());
         public IActionResult Index()
         {
-            return View();
+            var values = messageManager.TGetList();
+            return View(values);
+        }
+        public IActionResult DeleteContact(int id)
+        {
+            var values = messageManager.TGetByID(id);
+            messageManager.TDelete(values);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult ContactDetails(int id)
+        {
+            var values = messageManager.TGetByID(id);
+            return View(values);
         }
     }
 }

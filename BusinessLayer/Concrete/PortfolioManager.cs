@@ -10,6 +10,10 @@ namespace BusinessLayer.Concrete
     {
         IPortfolioDal _portfolioDal;
 
+        public PortfolioManager()
+        {
+        }
+
         public PortfolioManager(IPortfolioDal portfolioDal)
         {
             _portfolioDal = portfolioDal;
@@ -17,17 +21,17 @@ namespace BusinessLayer.Concrete
 
         public void TAdd(Portfolio t)
         {
-            throw new NotImplementedException();
+            _portfolioDal.Insert(t);
         }
 
         public void TDelete(Portfolio t)
         {
-            throw new NotImplementedException();
+            _portfolioDal.Delete(t);
         }
 
         public Portfolio TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _portfolioDal.GetById(id);
         }
 
         public List<Portfolio> TGetList()
@@ -35,9 +39,14 @@ namespace BusinessLayer.Concrete
             return _portfolioDal.GetList();
         }
 
-        public void TUpdate(Portfolio t)
+        public List<Portfolio> TGetListByFilter()
         {
             throw new NotImplementedException();
+        }
+
+        public void TUpdate(Portfolio t)
+        {
+            _portfolioDal.Update(t);
         }
     }
 }

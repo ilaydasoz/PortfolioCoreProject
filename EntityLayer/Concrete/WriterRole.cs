@@ -1,10 +1,10 @@
 ﻿using System;
+using Microsoft.AspNetCore.Identity;
+
 namespace EntityLayer.Concrete
 {
-    public class WriterRole
+    public class WriterRole : IdentityRole<int>
     {
-        public WriterRole()
-        {
-        }
+        
     }
 }

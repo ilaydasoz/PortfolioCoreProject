@@ -1,21 +1,18 @@
 ﻿<Properties StartupConfiguration="{9C6C0E51-8978-4324-A7AA-D8515A2AA3FD}|Default">
   <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PortfolioCoreProject/Areas/Writer/Controllers/RegisterController.cs">
     <Files>
-      <File FileName="PortfolioCoreProject/Views/Default/Index.cshtml" Line="44" Column="23" />
-      <File FileName="PortfolioCoreProject/ViewComponents/Contact/SendMessage.cs" />
-      <File FileName="PortfolioCoreProject/Views/Shared/Components/SendMessage/Default.cshtml" />
-      <File FileName="PortfolioCoreProject/Views/Shared/Components/ContactDetails/Default.cshtml" Line="36" Column="1" />
+      <File FileName="PortfolioCoreProject/Areas/Writer/Models/UserRegisterViewModel.cs" Line="32" Column="1" />
+      <File FileName="PortfolioCoreProject/Areas/Writer/Controllers/RegisterController.cs" Line="48" Column="18" />
+      <File FileName="DataAccessLayer/Concrete/Context.cs" Line="16" Column="53" />
+      <File FileName="PortfolioCoreProject/Areas/Writer/Views/Register/Index.cshtml" Line="1" Column="1" />
+      <File FileName="PortfolioCoreProject/Program.cs" Line="16" Column="1" />
+      <File FileName="BusinessLayer/Concrete/WriterUserManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PortfolioCoreProject" expanded="True" selected="True">
-            <Node name="PortfolioCoreProject" expanded="True">
-              <Node name="Views" expanded="True" />
-              <Node name="wwwroot" expanded="True" />
-            </Node>
-          </Node>
+          <Node />
         </State>
       </Pad>
     </Pads>
@@ -26,4 +23,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PortfolioCoreProject__Api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

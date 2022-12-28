@@ -1,7 +1,9 @@
 ﻿using System;
+using EntityLayer.Concrete;
+
 namespace DataAccessLayer.Abstract
 {
-    public interface IAnnouncementDal
+    public interface IAnnouncementDal : IGenericDal<Announcement>
     {
     }
 }

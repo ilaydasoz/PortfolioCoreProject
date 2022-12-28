@@ -17,17 +17,17 @@ namespace BusinessLayer.Concrete
 
         public void TAdd(Skill t)
         {
-            throw new NotImplementedException();
+            _skillDal.Insert(t);
         }
 
         public void TDelete(Skill t)
         {
-            throw new NotImplementedException();
+            _skillDal.Delete(t);
         }
 
         public Skill TGetByID(int id)
         {
-            throw new NotImplementedException();
+            return _skillDal.GetById(id);
         }
 
         public List<Skill> TGetList()
@@ -35,9 +35,14 @@ namespace BusinessLayer.Concrete
             return _skillDal.GetList();
         }
 
-        public void TUpdate(Skill t)
+        public List<Skill> TGetListByFilter()
         {
             throw new NotImplementedException();
+        }
+
+        public void TUpdate(Skill t)
+        {
+            _skillDal.Update(t);
         }
     }
 }

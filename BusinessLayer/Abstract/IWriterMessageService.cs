@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using EntityLayer.Concrete;
+
 namespace BusinessLayer.Abstract
 {
-    public interface IWriterMessageService
+    public interface IWriterMessageService : IGenericService<WriterMessage>
     {
+        List<WriterMessage> GetListSenderMessage(string p);
+        List<WriterMessage> GetListReceiverMessage(string p);
     }
 }

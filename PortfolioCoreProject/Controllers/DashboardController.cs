@@ -1,10 +1,13 @@
 ﻿using System;
+using Microsoft.AspNetCore.Mvc;
+
 namespace PortfolioCoreProject.Controllers
 {
-    public class DashboardController
+    public class DashboardController : Controller
     {
-        public DashboardController()
+        public IActionResult Index()
         {
+            return View();
         }
     }
 }

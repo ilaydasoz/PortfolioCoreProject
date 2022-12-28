@@ -1,7 +1,9 @@
 ﻿using System;
+using EntityLayer.Concrete;
+
 namespace BusinessLayer.Abstract
 {
-    public interface IWriterUserService
+    public interface IWriterUserService : IGenericService<WriterUser>
     {
     }
 }

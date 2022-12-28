@@ -1,10 +1,10 @@
 ﻿using System;
+using EntityLayer.Concrete;
+
 namespace BusinessLayer.Abstract
 {
-    public class IToDoListService
+    public interface IToDoListService : IGenericService<ToDoList>
     {
-        public IToDoListService()
-        {
-        }
+        
     }
 }

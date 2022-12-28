@@ -1,11 +1,12 @@
 ﻿using System;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete
 {
-    public class Context : DbContext
-    {
+    public class Context : IdentityDbContext<WriterUser, WriterRole, int>
+    { 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql("Host=localhost;Database=PortfolioDb;Username=postgres;Password=postgres");
 
@@ -19,6 +20,9 @@ namespace DataAccessLayer.Concrete
         public DbSet<Skill> Skills { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<Announcement> Announcements { get; set; }
+        public DbSet<Test> Test { get; set; }
+        public DbSet<WriterMessage> WriterMessages { get; set; }
 
     }
 }
